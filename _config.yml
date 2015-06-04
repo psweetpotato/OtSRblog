@@ -4,8 +4,8 @@ title: Over the Shoulder Reviews
 description:
   "Book reviews for busy people based on what I'm able to read over the shoulders
   of commuters on the New York City subway."
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "/OtSRblog" # the base hostname & protocol for your site
+baseurl: "/OtSRblog" # the subpath of your site, e.g. /blog/
+url: "psweetpotato.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  psweetpotato
 
