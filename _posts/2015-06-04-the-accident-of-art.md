@@ -3,6 +3,7 @@ layout: post
 title:  "The Accident of Art"
 date:   2015-06-04 11:09:02
 categories: F history
+excerpt: "With the World Trade Center, we have an iconoclastic phenomenon that no one foresaw. There are two types of iconoclasm at least..."
 ---
 Book: The Accident of Art; by: Sylvère Lotringer  
 Reader: middle-age man using a flip phone  
