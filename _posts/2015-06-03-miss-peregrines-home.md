@@ -2,7 +2,7 @@
 layout: post
 title:  "Miss Peregrine's Home for Peculiar Children"
 date:   2015-06-03 19:50:02
-categories: J fiction
+tags: [J, fiction]
 excerpt: "'Gaping at me in surprise, he opened his mouth to speak but found he could not.'"
 ---
 Book: Miss Peregrine's Home for Peculiar Children; by: Ransom Riggs  
