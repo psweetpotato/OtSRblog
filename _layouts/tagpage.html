@@ -7,9 +7,11 @@ layout: default
 <ul>
 {% for post in site.tags[page.tag] %}
   <li>
-    {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
-    {{ post.excerpt }}
-    <p><a href="{{ post.url | prepend: site.baseurl }}" role="button">Read more</a>
+    {{ post.date | date: "%B %d, %Y" }}:
+  </br>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </br>
+    <p>{{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}" role="button">Read more</a>
 </p>
   </li>
 {% endfor %}
