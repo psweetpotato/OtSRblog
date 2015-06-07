@@ -15,7 +15,7 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         {{ post.excerpt }}
-        <p><a class="btn btn-sm btn-primary" href="{{ post.url | prepend: site.baseurl }}" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
+        <p><a href="{{ post.url | prepend: site.baseurl }}" role="button">Read more</a>
     </p>
       </li>
     {% endfor %}
