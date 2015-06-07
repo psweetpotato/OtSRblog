@@ -19,7 +19,12 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: darken($brand-color, 15%);
+    }
+
+    &:hover {
+        color: $brand-color;
+        text-decoration: underline;
     }
 }
 
@@ -82,6 +87,15 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+
+            &:visited {
+                color: darken($brand-color, 15%);
+            }
+
+            &:hover {
+                color: $brand-color;
+                text-decoration: underline;
+
         }
     }
 }
