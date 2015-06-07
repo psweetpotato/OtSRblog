@@ -88,17 +88,6 @@
             display: block;
             padding: 5px 10px;
 
-            color: $text-color;
-            text-decoration: none;
-
-            &:visited {
-                color: darken($brand-color, 15%);
-            }
-
-            &:hover {
-                color: $text-color;
-                text-decoration: underline;
-            }
         }
     }
 }
@@ -249,5 +238,18 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+}
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
     }
 }
