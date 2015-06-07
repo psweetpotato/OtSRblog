@@ -15,9 +15,9 @@ layout: default
   <span>
     Tags:
     {% for tag in page.tags %}
-    {{tag}},
+    <!-- {{tag}}, -->
+    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ tag }}</a>,
     {% endfor %}
-
   </span>
 
 </div>
