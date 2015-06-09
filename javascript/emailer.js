@@ -25,6 +25,8 @@ $(document).ready(function() {
 			success:function() {
 				console.log("Success");
 				$('#response').html('Email successful!').addClass('success').fadeIn('fast');
+        $('input[type="text"], textarea').val('')
+        $('input[type="email"], textarea').val('')
 			},
 			error:function(e) {
 				console.dir(e);
